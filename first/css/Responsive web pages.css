@@ -1,0 +1,14 @@
+.auto1 span{
+    float: left;
+    display: block;
+    color: #f40d0d;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+        }
+@media screen and (max-width: 400px){
+        .auto1{
+            float: none;
+            width: 100%;
+        }
+    }

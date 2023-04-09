@@ -1,0 +1,20 @@
+.huandeng{
+    width: 1920px;;
+    height: 1080px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+    -webkit-animation: "loop";
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes "loop"
+    {
+    0% { background: url("../imgs/huandeng/1.jpg") no-repeat;}
+    25% { background: url("../imgs/huandeng//2.png") no-repeat;}
+    50% { background: url("../imgs/huandeng/3.jpg") no-repeat;}
+    75% { background: url("../imgs/huandeng/4.jpg") no-repeat;}
+    100% {background:  url("../imgs/huandeng/5.png") no-repeat;}
+}

@@ -1,0 +1,36 @@
+.images{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.content{
+    overflow: hidden;
+    float: left;
+    width: 288px;
+    height: 162px;
+    position: relative;
+    margin: 8px;
+}
+.hide{
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.5);
+    transition: bottom .3s;
+}
+.hide-content{
+    padding: 10px;
+
+}
+.hide-name{
+    color: azure;
+}
+.content:hover .hide{
+    bottom: 0;
+}
+.content:hover .images{
+    transform: scale(1.3);
+}
