@@ -120,7 +120,6 @@ ul.list{
     padding: 0;
     width: calc(var(--width) * 4);
     height: 470px;
-    /* border: .5rem dashed blue; */
     z-index: -1;
     animation: move 5s ease 1s infinite;
 }
