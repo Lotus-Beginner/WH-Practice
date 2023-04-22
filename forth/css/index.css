@@ -1,0 +1,42 @@
+.box{
+    margin: auto;
+    width: 45vw;
+    height: 30vw;
+    background-color: #5170AD;
+    border-radius: 10px;
+    top: 25%;
+    left: 28%;
+    position: absolute;
+}
+div.box p:nth-child(1){
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+table{
+    border-spacing: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+.box1{
+    top: 20%;
+}
+.button{
+    background-color: aliceblue;
+    color: gray;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: black;
+}

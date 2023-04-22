@@ -53,6 +53,8 @@ div a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .rightdiv{
     float: right;
@@ -65,14 +67,16 @@ div a:hover{
     background: black;
 }
 .leftdaohang{
-    width: 31%;
-    height: 500px;
+    width: auto;
+    height: auto;
     float: left;
+    left: 10%;
 }
 .qs{
     color: white;
     background-color: #e84118;
     border-spacing: 10px;
+    letter-spacing: 5px;
 }
 caption{
     background-color: rgba(204, 8, 8, 0.87);
@@ -105,8 +109,8 @@ table.qs tr:hover{
     transition: 0.5s;
 }
 :root{
-    --width:590px;
-    --height:470px;
+    --width:885px;
+    --height:760px;
 }
 div.slide{
     width: var(--width);
@@ -119,7 +123,7 @@ ul.list{
     margin: 0;
     padding: 0;
     width: calc(var(--width) * 4);
-    height: 470px;
+    height: 760px;
     z-index: -1;
     animation: move 5s ease 1s infinite;
 }
@@ -139,11 +143,13 @@ ul.list{
 }
 li.item{
     width: var(--width);
-    height: 470px;
+    height: 760px;
     box-sizing: border-box;
     border: .2rem solid pink;
     line-height: var(--height);
     float: left;
+    margin: 0;
+    padding: 0;
 }
 div.slide ~ input{
     display: none;
@@ -251,6 +257,7 @@ p{
 }
 .content:hover .hide{
     bottom: 0;
+    cursor: pointer;
 }
 .content:hover .images{
     transform: scale(1.3);
