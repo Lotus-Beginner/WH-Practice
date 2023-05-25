@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function zifu(word) {
+            const formattedWord = word.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+            return formattedWord === formattedWord.split('').reverse().join('');
+        }
+        const input = prompt('请输入一个字符串：(只能输入字母和数字，其它会被忽视)');
+        const x = zifu(input);
+        if (x) {
+            alert('是回文字符串');
+        } else {
+            alert('不是回文字符串');
+        }
+    </script>
+</body>
+</html>

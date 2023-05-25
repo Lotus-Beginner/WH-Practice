@@ -39,4 +39,5 @@ a:hover{
 }
 .button:hover{
     background-color: black;
+    cursor: pointer;
 }

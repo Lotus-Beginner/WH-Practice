@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function jiecheng() {
+        let a;
+        do {
+            a = Number(prompt('请输入一个正整数：'));
+        } while (isNaN(a) || a <= 0);
+
+        let sum = 0;
+
+        for (let i = 1; i <= a; i++) {
+            let y = 1;
+
+            for (let j = 1; j <= i; j++) {
+                y *= j;
+            }
+
+            sum += y;
+        }
+
+        return { a, sum };
+    }
+
+    const x = jiecheng();
+    alert(`从1到${x.a}的阶乘之和为：${x.sum}`);
+
+    </script>
+</body>
+</html>
